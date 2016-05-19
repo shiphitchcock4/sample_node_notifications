@@ -22,15 +22,15 @@ integrations:
       recipients:
         - "#random" 
         - "#public-chnl" 
-     # on_start: 
-      #on_success: 
-      #on_failure: 
+      on_start: 
+      on_success: 
+      on_failure: 
       
     - integrationName: "ship-slack1"
       type: slack
-      #on_failure: 
-      #on_start: 
-      #on_success: 
+      on_failure: 
+      on_start: 
+      on_success: 
       recipients:
         - "#general"
       
@@ -39,9 +39,9 @@ integrations:
       recipients: 
           - sreyaj10@gmail.com
           - sreya@shippable.com
-      #on_start: 
-      #on_success:  
-      #on_failure:  
+      on_start: 
+      on_success:  
+      on_failure:  
      
     - integrationName: irc   
       type: irc
@@ -58,7 +58,7 @@ integrations:
         - '#testing'
      # - '#Pillar%20of%20Autumn'
         - '@shiphitchcock4'
-      #on_start: 
-      #on_success: 
-      #on_failure: 
+      on_start: 
+      on_success: 
+      on_failure: 
       #on_pull_request: always               
