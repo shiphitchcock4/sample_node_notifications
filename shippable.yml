@@ -22,17 +22,17 @@ integrations:
       recipients:
         - "#random" 
         - "#public-chnl" 
-      on_start: never
+      #on_start: never
       on_success: always
-      on_failure: change
-      on_pull_request: always
+      on_failure: always
+      #on_pull_request: always
       
     - integrationName: "ship-slack1"
       type: slack
-      on_failure: change
-      on_start: never
+      on_failure: always
+      #on_start: never
       on_success: always
-      on_pull_request: always
+      #on_pull_request: always
       recipients:
         - "#general"
       
@@ -41,10 +41,10 @@ integrations:
       recipients: 
           - sreyaj10@gmail.com
           - sreya@shippable.com
-      on_start: never
+      #on_start: never
       on_success: always
-      on_failure: change
-      on_pull_request: always
+      on_failure: always
+    #  on_pull_request: always
      
    
      
@@ -54,7 +54,7 @@ integrations:
         - '#testing'
      # - '#Pillar%20of%20Autumn'
         - '@shiphitchcock4'
-      on_start: never
+      #on_start: never
       on_success: always
-      on_failure: change
-      on_pull_request: always               
+      on_failure: always
+      #on_pull_request: always               
